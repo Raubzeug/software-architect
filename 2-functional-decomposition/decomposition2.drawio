@@ -1,0 +1,139 @@
+<mxfile host="65bd71144e">
+    <diagram id="Q_Cfc-3wIeCaXGLubFnJ" name="Page-1">
+        <mxGraphModel dx="992" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="104" value="Занятие" style="swimlane;whiteSpace=wrap;html=1;fillColor=#60647D;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="70" width="370" height="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="Занятие" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="104">
+                    <mxGeometry x="40" y="130" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="Посещено" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="104">
+                    <mxGeometry x="190" y="50" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="Пропущено" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="104">
+                    <mxGeometry x="190" y="210" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="104" source="105" target="106">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="360" y="230" as="sourcePoint"/>
+                        <mxPoint x="410" y="180" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="100" y="80"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="109" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="104" source="105" target="107">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="110" y="140" as="sourcePoint"/>
+                        <mxPoint x="200" y="60" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="100" y="240"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="110" value="Задание" style="swimlane;whiteSpace=wrap;html=1;fillColor=#60647D;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="70" width="370" height="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="Задание" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="110">
+                    <mxGeometry x="40" y="130" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="Выдано" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="110">
+                    <mxGeometry x="190" y="50" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="Выполнено" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="110">
+                    <mxGeometry x="190" y="210" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="110" source="111" target="112">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="360" y="230" as="sourcePoint"/>
+                        <mxPoint x="410" y="180" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="100" y="80"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="115" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="110" source="111" target="113">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="110" y="140" as="sourcePoint"/>
+                        <mxPoint x="200" y="60" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="100" y="240"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="116" value="Возвращено на&lt;br&gt;доработку" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="110">
+                    <mxGeometry x="190" y="130" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="110" source="111" target="116">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-50" y="250" as="sourcePoint"/>
+                        <mxPoint y="200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="118" value="Форум" style="swimlane;whiteSpace=wrap;html=1;fillColor=#60647D;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="390" width="370" height="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="119" value="Сообщение" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="118">
+                    <mxGeometry x="40" y="130" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="120" value="Отправлено" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="118">
+                    <mxGeometry x="190" y="50" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" value="Прочитано" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="118">
+                    <mxGeometry x="190" y="210" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="122" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="118" source="119" target="120">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="360" y="230" as="sourcePoint"/>
+                        <mxPoint x="410" y="180" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="100" y="80"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="123" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="118" source="119" target="121">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="110" y="140" as="sourcePoint"/>
+                        <mxPoint x="200" y="60" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="100" y="240"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="124" value="Отчет" style="swimlane;whiteSpace=wrap;html=1;fillColor=#60647D;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="390" width="370" height="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="125" value="Отчет" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="124">
+                    <mxGeometry x="40" y="130" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="126" value="Запрошен" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="124">
+                    <mxGeometry x="190" y="50" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="127" value="Составлен" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="124">
+                    <mxGeometry x="190" y="210" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="128" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="124" source="125" target="126">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="360" y="230" as="sourcePoint"/>
+                        <mxPoint x="410" y="180" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="100" y="80"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="129" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="124" source="125" target="127">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="110" y="140" as="sourcePoint"/>
+                        <mxPoint x="200" y="60" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="100" y="240"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
